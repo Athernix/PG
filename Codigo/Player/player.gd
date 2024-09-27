@@ -1,13 +1,11 @@
 extends CharacterBody2D
-
-
+# Controles del personaje
+#CONTROLES DE MOVIMIENTO
+# Control de velocidad
 const MAX_VELOCIDAD = 400.0
 const ACCELERACION = 15000.0
 const FRICION = 600.0
-
-
 var input = Vector2.ZERO
-
 func _physics_process(delta):
 	
 	input = Vector2.ZERO
@@ -16,7 +14,6 @@ func _physics_process(delta):
 	input.x = Input.get_action_strength("Derecha") - Input.get_action_strength("Izquierda")
 	input.y = Input.get_action_strength("Abajo") - Input.get_action_strength("Arriba")
 	input = input.normalized()
-
 	
 	if input == Vector2.ZERO:
 		
