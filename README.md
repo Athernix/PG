@@ -8,7 +8,7 @@ Lorem ipsum dolor sit amet, consectetur adipiscing elit. Sed do eiusmod tempor i
 
 **Estado del proyecto:**
  
- ✨---EN DESAROLLO---✨
+ ✨---Prueba pepe---✨
 
 ### Características
 
